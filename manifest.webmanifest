@@ -1,6 +1,6 @@
 {
-  "name": "Horta — Gestão de Jardim",
-  "short_name": "Horta",
+  "name": "RaizDigital — Terra e Tecnologia",
+  "short_name": "RaizDigital",
   "description": "PWA offline para gerenciar sua horta: plantas, zonas, Wiki e notas.",
   "start_url": "./",
   "scope": "./",
@@ -8,7 +8,7 @@
   "orientation": "portrait",
   "background_color": "#0d1117",
   "theme_color": "#0d1117",
-  "lang": "pt-BR",
+  "lang": "pt-PT",
   "dir": "ltr",
   "categories": ["lifestyle", "utilities", "productivity"],
   "icons": [

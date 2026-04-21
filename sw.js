@@ -1,5 +1,5 @@
 /* Horta PWA service worker */
-const CACHE = 'horta-v2';
+const CACHE = 'horta-v3';
 const SCOPE_URL = new URL('./', self.location).href;
 const HTML_URL  = new URL('./index.html', self.location).href;
 
