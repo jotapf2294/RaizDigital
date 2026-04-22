@@ -2,7 +2,7 @@
   "name": "RaizDigital — Terra e Tecnologia",
   "short_name": "RaizDigital",
   "description": "PWA offline para gerenciar sua horta: plantas, zonas, Wiki e notas.",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
