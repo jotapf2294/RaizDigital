@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#f6f8fa">
+  <title>RaizDigital</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌱 RaizDigital</h1>
+    <button onclick="toggleTheme()">🌓</button>
+  </header>
+
+  <main id="app"></main>
+
+  <nav class="tabs">
+    <button class="tab active" data-view="home">🏠 Home</button>
+    <button class="tab" data-view="hortas">🪴 Hortas</button>
+    <button class="tab" data-view="wiki">📖 Wiki</button>
+    <button class="tab" data-view="forum">💬 Fórum</button>
+    <button class="tab" data-view="stats">📊 Stats</button>
+    <button class="tab" data-view="defs">⚙️ Defs</button>
+  </nav>
+
+  <button id="fab" class="fab">➕</button>
+
+  <dialog id="modal-horta"></dialog>
+  <dialog id="modal-wiki"></dialog>
+  <dialog id="modal-forum"></dialog>
+
+  <script type="module" src="./js/app.js"></script>
+
+</body>
+</html>
